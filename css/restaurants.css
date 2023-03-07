@@ -1,0 +1,129 @@
+
+body{
+    background: rgb(126,238,233);
+    background: linear-gradient(73deg, rgba(126,238,233,0.3618697478991597) 0%, rgba(185,77,163,0.23021708683473385) 100%);
+    
+}
+body h1{
+    color: rgb(32, 32, 32);
+    font-size: 55px;
+}
+
+/* p {
+    color: gray;
+    font-size: 20px;
+} */
+
+.sb-icon a{
+    color: #b4b4b4;
+    
+    
+}
+.inthover a{
+    color: #3d3d3d;
+    font-weight:700;
+}
+.bread{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.sb-btn .fa-solid{
+display: inline;
+color: #F29F05;
+}
+
+.r_p1 {
+    margin: 70px;
+    margin-top: 36px;
+    width: 38%;
+    line-height: 26px;
+    float: left;
+    color: gray;
+    font-size: 20px;
+}
+.r_p2 {
+    margin-top: 60px;
+    line-height: 30px;
+}
+.r_para {
+    margin-top: 40px;
+    color: gray;
+    font-size: 20px;
+}
+
+.sb-btn {
+    opacity: 1;
+    border: none;
+    padding: 0 5px;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    transform: scale(1);
+    height: 55px;
+    letter-spacing: 0;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+.inthover {
+    color: black;
+}
+.inthover:hover {
+    color: #F29F05;
+}
+.sb-icon {
+    color: gray;
+}
+.sb-icon:hover {
+    color: #F29F05;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sb-btn.sb-btn-2.sb-btn-gray {
+    background-color: transparent;
+}
+
+/* Page 2 */
+.r_h {
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+}
+.r_h:hover {
+    color: #F29F05;
+}
+.card_r1 {
+    width: 45%;
+    float: left;
+    background-color: white;
+    margin: 22px;
+    margin-left: 30px;
+}
+.card_r2 {
+    width: 120px;
+    margin-top: 30px;
+    height: 30px;
+    background-color: white;
+    color: #F29F05;
+    border-color: #F29F05;
+    border-radius: 8px;
+}
+.card_r2:hover {
+    background-color: #F29F05;
+    color: white;
+}
+.p7_im {
+    float: left;
+    margin-top: 110px;
+    width: 40%;
+   
+}
+

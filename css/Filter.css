@@ -1,0 +1,30 @@
+.filterDiv {
+    float: left;
+    display: none; 
+  }
+  
+  .show {
+    display: block;
+  }
+
+
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    /* margin-top: 200px; */
+    border-bottom: none;
+    font-size: 18px;
+  }
+  
+
+  .btn:hover {
+    border-bottom: #F29F05;
+  }
+  
+
+  .btn.active {
+    border-bottom: 2px solid #F29F05 ;
+  }

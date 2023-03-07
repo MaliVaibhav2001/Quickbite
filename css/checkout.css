@@ -1,0 +1,190 @@
+body {
+    background: rgb(82,195,221);
+    background: linear-gradient(50deg, rgba(82,195,221,0.20780812324929976) 22%, rgba(191,70,238,0.16299019607843135) 100%);
+}
+
+.checkout {
+    /* margin-left: 70px; */
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.order_h4 {
+    font-size: 22px;
+    float: left;
+}
+.order_img2 {
+    width: 140px;
+    float: left;
+}
+.order_img {
+    float: left;
+}
+.add_btn {
+    width: 40px;
+    height: 40px;
+    border-color: #F29F05;
+    float: right;
+    border-radius: 10px;
+}
+.add_btn .fa-solid {
+    display: inline;
+    color: #F29F05;
+    background-color: transparent;
+    width: 100%;
+}
+.check_count {
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+}
+.dishName {
+    font-size: 20px;
+}
+.dishPrice {
+    font-size: 50px;
+    color: #F29F05;
+}
+.totalTag {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+.QuantityTag {
+    font-size: 20px;
+    color: gray;
+    text-align: right;
+}
+.deleteIcon .fa-solid {
+    display: inline;
+    background-color: transparent;
+    width: 100%;
+    font-size: 30px ;
+    cursor: pointer;
+}
+
+.totalPrice {
+    font-size: 34px;
+    margin-top: 100px;
+}
+/* left */
+/* .order_img {
+    float: left;
+}
+.order_h4 {
+    font-size: 20px;
+}
+.order_img2 {
+    float: left;
+    margin-top: 70px;
+    margin-left: -50px;
+}
+.order_h {
+    font-size: 40px;
+    float: right;
+    margin-top: 70px;
+}
+.order_price {
+    font-size: 50px;
+    color: #F29F05;
+    float: right;
+    margin-top: 70px;
+}
+.item_2 {
+    height: 10px;
+} */
+
+
+
+.check_text h1 {
+    color: rgb(36, 36, 36);
+    text-align: center;
+    margin-top: 20px;
+}
+.check_text p {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.left_box {
+    margin-top: 100px;
+    width: 42%;
+    padding-right: 50px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.10);
+}
+.check_h1 {
+    
+    font-size: 50px;
+    padding: 20px;
+}
+.check_h2 {
+    font-size: 40px;
+    margin-top: 100px;
+    float: right;
+
+}
+
+.check_select {
+    float: left;
+    width: 630px;
+    height: 46px;
+    border-color: gray;
+    border-radius: 8px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(203, 202, 202);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.right_box {
+    width: 46%;
+    padding-right: 50px;
+    background-color: rgb(247, 247, 247);
+    float: left;
+    font-size: 50px;
+    padding: 30px;
+    margin: 32px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.60);
+}
+.right_h1 {
+    margin: 16px;
+    font-size: 30px;
+}
+.cname {
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.cemail {
+    width: 272px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    margin: 6px;
+    border-color: gray;
+}
+
+.pay_but {
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}

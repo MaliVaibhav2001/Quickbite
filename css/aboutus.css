@@ -1,0 +1,82 @@
+.about {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+/* page-1 css */
+.abt_page_1
+{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    float: left;
+}
+.abt_heading_1
+{
+    float: left;
+    font-size: 36px;
+    margin-top: 1;
+
+}
+.abt_img_1
+{
+    float: right;
+}
+.abt_para_1
+{
+    font-size: 28px;
+    color: gray;
+    float: left;
+    margin-top: 20px;
+}
+/* page-2-css */
+.abt_p4_img {
+    float: left;
+    margin-top: 200px;
+    
+}
+
+.abt_p4_h1 {
+    float: right;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 60px;
+    line-height: 70px;
+    color: rgb(40, 40, 40);
+   
+}
+
+.abt_p4_p {
+    font-size: 20px; 
+    color: gray;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 60px;
+    float: left;
+    width: 50%;
+}
+
+/*  Page 3 */
+.services
+{
+  margin: auto;
+  display: flex;
+ 
+}
+.services .box
+{
+    border: 2px solid gray;
+    padding: 40px;
+   justify-content: center;
+   float: left;
+   margin-top: 500px;
+
+}
+.services .box img
+{
+   height: 100px;
+   margin: auto;
+   padding-right: 200px;
+}
+.box:hover{
+    background-color: darkgoldenrod;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae122be0be.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/head.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/restaurants.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/text_effects.css">
+    <title>Restaurants</title>
+</head>
+<body>
+    <!-- Navigation Bar Start -->
+    <div class="navbar">
+        <a href="index.html"><img class="logo" src="img/quickbite1.png" alt="logo" /></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <a href="index.html">Home</a>
+        
+                <div class="dropdown" >
+                  <button class="dropbtn" style="color: #F29F05;">
+                      Restaurents
+                    <!-- <i class="fa fa-caret-down"></i> -->
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="restaurants.html" class="active">Restaurents</a>
+                    <a href="resto_card.html">Our Menu</a>
+                    <a href="checkout.html">CheckOut</a>
+                  </div>
+                </div>
+                
+        
+                <a href="services.html" >Services</a>
+                <a href="about.html" >About us</a>
+                <a href="contact.html" >Contacts</a>
+      
+                </div>
+                  <a href="checkout.html"class="bag"><i class="fa-solid fa-bag-shopping"></i><span>0</span></a> 
+                  <a href="restaurants.html"><button href="resto_card.html" type="button" class="btn_nav">ORDER NOW</button></a>
+                  <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        
+      </div>
+    <!-- navigation bar ends -->
+
+    <div class="container fade-in-text">
+        <!-- Page 1 -->
+        <div>
+            <div class="r_p1">
+                <div class="sb-btn " style="margin-top: 110px;  letter-spacing: 5px;">
+                    <span class="sb-icon" >
+                        <a href="index.html">Home</a>
+                    </span>
+                    <span> &nbsp;/&nbsp; </span>
+                    <span class="inthover"><a href="restaurants.html">Restaurants</a></span>
+                </div>
+               
+                <div class="r_p2 ">
+                    <h1>Restaurants</h1>
+                    <p class="r_para">Egestas sed tempus urna et pharetra pharetra massa. Fermentum posuere urna nec tincidunt praesent semper.</p>
+                </div>
+    
+                <div>
+                    <select class="select_1">
+                        <option>Choose a Restaurant</option>
+                        <a href="Kennington_Lane_Cafe.html"><option>Kennington Lane Cafe</option></a>
+                        <option>The Wilmington</option>
+                        <option>Kings Arms</option>
+                        <option>The Victoria</option>
+                        <option>Lanes of London</option>
+                        <option>The Andover Arms</option>
+                    </select>
+                    <button type="button" class="btn_1">ORDER NOW</button>
+                </div>
+            </div>
+            <div class="r_p1">
+                <img src="img/photo-11.png" alt="">
+            </div>
+        </div>
+
+        <!-- Page 2 -->
+        <div>
+            <a href="Kennington_Lane_Cafe.html" onclick="displayitems()">
+                <div class="card_r1">
+                <img src="img/logos-2.jpg" alt="" class="card_p3_img">
+                <h1 class="r_h">Kennington Lane Cafe</h1> <br>
+                <button class="card_btn">Breakfast</button>
+                <button class="card_btn">Lunch</button>
+                <button class="card_btn">Dinner</button>
+                <p class="card_para1">Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.</p>
+            </div>
+            </a>
+
+            <a href="The_Wilmington.html">
+                <div class="card_r1">
+                    <img src="img/logos-1.jpg" alt="" class="card_p3_img">
+                    <h1 class="r_h">The Wilmington</h1> <br>
+                    <button class="card_btn">Breakfast</button>
+                    <button class="card_btn">Lunch</button>
+                    <button class="card_btn">Dinner</button>
+                    <p class="card_para1">Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.</p>
+                </div>
+            </a>
+
+            <a href="Kings_Arms.html">
+                <div class="card_r1">
+                    <img src="img/logos-3.jpg" alt="" class="card_p3_img">
+                    <h1 class="r_h">Kings Arms</h1> <br>
+                    <button class="card_btn">Breakfast</button>
+                    <button class="card_btn">Lunch</button>
+                    <button class="card_btn">Dinner</button>
+                    <p class="card_para1">Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.</p>
+                </div>
+            </a>
+
+            <a href="The_Victoria.html">
+                <div class="card_r1">
+                    <img src="img/logos-3.jpg" alt="" class="card_p3_img">
+                    <h1 class="r_h">The Victoria</h1> <br>
+                    <button class="card_btn">Breakfast</button>
+                    <button class="card_btn">Lunch</button>
+                    <button class="card_btn">Dinner</button>
+                    <p class="card_para1">Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.</p>
+                </div>
+            </a>
+
+            <a href="Lanes_of_London.html">
+                <div class="card_r1">
+                    <img src="img/logos-3.jpg" alt="" class="card_p3_img">
+                    <h1 class="r_h">Lanes of London</h1> <br>
+                    <button class="card_btn">Breakfast</button>
+                    <button class="card_btn">Lunch</button>
+                    <button class="card_btn">Dinner</button>
+                    <p class="card_para1">Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.</p>
+                </div>
+            </a>
+
+            <a href="The_Andover_Arms.html">
+                <div class="card_r1">
+                    <img src="img/logos-3.jpg" alt="" class="card_p3_img">
+                    <h1 class="r_h" >The Andover Arms</h1> <br>
+                    <button class="card_btn">Breakfast</button>
+                    <button class="card_btn">Lunch</button>
+                    <button class="card_btn">Dinner</button>
+                    <p class="card_para1">Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Page 3 -->
+        <div class="page_1">
+            <img src="img/illustration-4.png" alt="" width="700px" class="p7_im">
+
+            <h1 class="p7_h1">Get the menu of your favorite restaurants every day</h1>
+
+            <input type="text" class="p7_text" placeholder="Entae email address">
+            <button type="button" class="btn_1">ORDER NOW</button>
+        </div>
+    </div>
+
+<!-- footer -->
+    
+    <footer class="footer">
+        <div class="c">
+            <div class="d">
+                <img id="i1" src="img/quickbite.png" alt="">
+                <h1 style="color: white;">The Best<br> Restaurants<br> In Your Home</h1>
+                <p>Vitae congue mauris rhoncus aenean. Enim nulla
+                 aliquet porttitor lacus luctus accumsan posuere.
+                  Tempus egestas sed sed risus pretium quam.</p>
+            </div>
+            <div class="e">
+                <h2 id="h">MENU</h2>
+                <ul>
+                <li><a href="index.html">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="about.html">About us&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="restaurants.html">Restaurants&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="contact.html">Contacts&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+            </ul>
+            </div>
+            <div class="g">
+                <h2> CONTACTS</h2>
+                <div class="g1">
+
+                    <p class="loc"><i class="fa-solid fa-location-dot"></i>1717 Harrison St, San Francisco, CA 94103, United <br><span>States</span></p>
+                    <hr>
+                    <p><i class="fa-solid fa-envelope"></i>&nbsp;quickeat@mail.net</p>
+                    <p><i class="fa-solid fa-phone"></i>&nbsp;+91 7498900373</p>
+                </div>
+            </div>
+            
+        </div><hr>
+        <div class="cr">
+            
+            <p>Copyright © 2022. Quickeat. All rights reserved.</p>
+            <p class="crp"> <a href="#"></a> Privacy & Policy</a></p>
+            <p> <a href="#"></a> Terms & Conditions</a></p>
+
+
+            
+        </div>
+        </div>
+    </footer>
+    <script src="js/display.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

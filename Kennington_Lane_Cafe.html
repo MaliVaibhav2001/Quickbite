@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/179b89618c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/Filter.css">
+    <link rel="stylesheet" href="css/resto_cad.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Kennington Lane Cafe</title>
+</head>
+
+<body>
+        <!-- Navigation Bar Start -->
+        <div class="navbar">
+          <a href="index.html"><img class="logo" src="img/quickbite1.png" alt="logo" /></a>
+                <div class="nav-links" id="navLinks">
+                  <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                  <a href="index.html" >Home</a>
+          
+                  <div class="dropdown">
+                    <button class="dropbtn" style="color: #F29F05;">
+                        Restaurents
+                      <!-- <i class="fa fa-caret-down"></i> -->
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="restaurants.html" class="active">Restaurents</a>
+                      <a href="resto_card.html">Restaurents Cards</a>
+                      <a href="checkout.html">CheckOut</a>
+                    </div>
+                  </div>
+                  
+          
+                  <a href="services.html" >Services</a>
+                  <a href="about.html" >About us</a>
+                  <a href="contact.html" >Contacts</a>
+        
+                  </div>
+                    <a href="checkout.html"class="bag"><i class="fa-solid fa-bag-shopping"></i><span>0</span></a> 
+                    <a href="restaurants.html"><button href="resto_card.html" type="button" class="btn_nav">ORDER NOW</button></a>
+                    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          
+        </div>  
+      <!-- navigation bar ends -->
+  
+      <!-- Page 1 -->
+      <div style="margin-bottom: 500;">
+          <div class="rcard_p">
+              <div class="sb-btn " >
+                  <span class="sb-icon" >
+                      <a href="index.html">Home</a>
+                  </span>
+                  <span> <i class="fa-solid fa-right-long"></i> </span>
+                  <span class="sb-icon"><a href="restaurants.html">Restaurants</a></span>
+                  <span> <i class="fa-solid fa-right-long"></i> </span>
+                  <span class="inthover" style= "color:#333333;"><a href="Kennington_Lane_Cafe.html">Kennington Lane Cafe</a></span>
+              </div>
+                
+  
+              <div class="card_p3">
+                  <img src="img/logos-2.jpg" alt="" class="card_p3_img">
+                  <h1 class="card_heading_P3">Kennington Lane Cafe</h1> 
+                       <div>
+                  <p class="p2  a">Rate:</p>
+                  <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="p1 a">CUISINES:</p>
+                  <div class="button">
+  
+                      <button class="card_btn">Breakfast</button>
+  
+                      <button class="card_btn">Lunch</button>
+                      <button class="card_btn">Dinner</button>
+                  </div>
+                  <p class="p1 a" >FEATURES:</p>
+  
+                  </div>
+                  <p class="card_para1" >Non enim praesent elementum facilisis leo vel fringilla.<br> Lectus proin nibh nisl condimentum id.purus gravida <br>quis blandit turpis cursus.</p>
+          </div>  
+                  </div>
+                  <div>
+                      <img src="img/restaurant-1.jpg" alt="" width="30%" height="30%" class="rcard_img">
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+    <!-- Control buttons -->
+<div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('All')"> All</button>
+  <button class="btn" onclick="filterSelection('Breakfast')"> Breakfast</button>
+    <button class="btn" onclick="filterSelection('Lunch')"> Lunch</button>
+    <button class="btn" onclick="filterSelection('Dinner')"> Dinner</button>
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+
+    <div class="elements">
+
+    </div>
+    <!-- Breakfast -->
+ 
+    <div class="filterDiv Breakfast resto_card"><img class="inthover2" src="img/1.png" alt="" width="400px" height="400px">
+      <h2 >Egg, kiwi and sauce chilli</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$49</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+    <!-- *** 2  -->
+    <div class="filterDiv Breakfast resto_card"><img class="inthover2" src="img/2.png" alt="" width="400px" height="400px">
+      <h2 >Potatoes with pork and dried fruits</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$50</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** 3  -->
+    <div class="filterDiv Breakfast resto_card"><img class="inthover2" src="img/3.png" alt="" width="400px" height="400px">
+      <h2 >Rice with shrimps and kiwi</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$51</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** 4  -->
+    <div class="filterDiv Breakfast resto_card"><img class="inthover2" src="img/4.png" alt="" width="400px" height="400px">
+      <h2 >Spaghetti with mushrooms and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$52</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** 5  -->
+    <div class="filterDiv Breakfast resto_card"><img class="inthover2" src="img/5.png" alt="" width="400px" height="400px">
+      <h2 >Sliced pork, avocado and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$53</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** 6  -->
+    <div class="filterDiv Breakfast resto_card"><img class="inthover2" src="img/6.png" alt="" width="400px" height="400px">
+      <h2 >Veal meat, tomatoes and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$54</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+
+    <!-- Lunch 1 -->
+    <div class="filterDiv Lunch resto_card"><img class="inthover2" src="img/2.png" alt="" width="400px" height="400px">
+      <h2>Potatoes with pork and dried fruits</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$49</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- **** Lunch2  -->
+    <div class="filterDiv Lunch resto_card"><img class="inthover2" src="img/1.png" alt="" width="400px" height="400px">
+      <h2 >Egg, kiwi and sauce chilli</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$49</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** lunch 3  -->
+    <div class="filterDiv Lunch resto_card"><img class="inthover2" src="img/5.png" alt="" width="400px" height="400px">
+      <h2 >Sliced pork, avocado and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$53</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** Lunch 4  -->
+    <div class="filterDiv Lunch resto_card"><img class="inthover2" src="img/6.png" alt="" width="400px" height="400px">
+      <h2 >Veal meat, tomatoes and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$54</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** Lunch 5  -->
+    <div class="filterDiv Lunch resto_card"><img class="inthover2" src="img/4.png" alt="" width="400px" height="400px">
+      <h2 >Spaghetti with mushrooms and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$52</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+    <!-- *** Lunch 6  -->
+    <div class="filterDiv Lunch resto_card"><img class="inthover2" src="img/3.png" alt="" width="400px" height="400px">
+      <h2 >Rice with shrimps and kiwi</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$51</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+
+    <!-- Dinner -->
+    <!-- *** 1  -->
+    <div class="filterDiv Dinner resto_card"><img class="inthover2" src="img/6.png" alt="" width="400px" height="400px">
+      <h2 >Veal meat, tomatoes and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$54</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+    <!-- *** Dinner 2  -->
+    <div class="filterDiv Dinner resto_card"><img class="inthover2" src="img/5.png" alt="" width="400px" height="400px">
+      <h2 >Sliced pork, avocado and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$53</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+    <!-- *** Dinner 3  -->
+    <div class="filterDiv Dinner resto_card"><img class="inthover2" src="img/4.png" alt="" width="400px" height="400px">
+      <h2 >Spaghetti with mushrooms and...</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$52</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+    <!-- *** Dinner 4  -->
+    <div class="filterDiv Dinner resto_card"><img class="inthover2" src="img/3.png" alt="" width="400px" height="400px">
+      <h2 >Rice with shrimps and kiwi</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$51</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+ <!-- *** Dinner 5  -->    
+    <div class="filterDiv Dinner resto_card"><img class="inthover2" src="img/1.png" alt="" width="400px" height="400px">
+      <h2 >Egg, kiwi and sauce chilli</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$49</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+    <!-- *** 6  -->
+    <div class="filterDiv Dinner resto_card"><img class="inthover2" src="img/2.png" alt="" width="400px" height="400px">
+      <h2 >Potatoes with pork and dried fruits</h2>
+      <button class="card_btn2">american</button>
+      <button class="card_btn2">american</button>
+
+      <!-- JS -->
+      <div>
+        <h1>$50</h1>
+        <span><button class="add_btn"><i class="fa-solid fa-plus "></i></button></span>
+        <span class="add_btn">0</span>
+        <span><button class="add_btn"><i class="fa-solid fa-minus "></i></button></span>
+      </div>
+      
+      <div>
+        <button class="add_basket">Add to Basket</button>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="c">
+            <div class="d">
+                <img id="i1" src="img/quickbite.png" alt="">
+                <h1 style="color: white;">The Best<br> Restaurants<br> In Your Home</h1>
+                <p>Vitae congue mauris rhoncus aenean. Enim nulla
+                 aliquet porttitor lacus luctus accumsan posuere.
+                  Tempus egestas sed sed risus pretium quam.</p>
+            </div>
+            <div class="e">
+                <h2 id="h">MENU</h2>
+                <ul>
+                <li><a href="index.html">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="about.html">About us&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="restaurants.html">Restaurants&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+                <li><a href="contact.html">Contacts&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+            </ul>
+            </div>
+            <div class="g">
+                <h2> CONTACTS</h2>
+                <div class="g1">
+
+                    <p class="loc"><i class="fa-solid fa-location-dot"></i>1717 Harrison St, San Francisco, CA 94103, United <br><span>States</span></p>
+                    <hr>
+                    <p><i class="fa-solid fa-envelope"></i>&nbsp;quickeat@mail.net</p>
+                    <p><i class="fa-solid fa-phone"></i>&nbsp;+91 7498900373</p>
+                </div>
+            </div>
+            
+        </div><hr>
+        <div class="cr">
+            
+            <p class="copy_p">Copyright © 2022. Quickeat. All rights reserved.</p>
+            <p class="crp"> <a href="#"></a> Privacy & Policy</a></p>
+            <p> <a href="#"></a> Terms & Conditions</a></p>
+        </div>
+        </div>
+    </footer>
+
+
+  <script src="js/resto_card.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/display.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+/* restro css */
+/* 
+body {
+    margin-left: 70px;
+} */
+.rcard_p {
+    margin-top: 50px;
+    line-height: 26px;
+    float: left;
+}
+.sb-icon a{
+    color: #b4b4b4;
+}
+.inthover a{
+    color: #2f2f2f;
+}
+
+.sb-btn .fa-solid{
+display: inline;
+color: #F29F05;
+}
+
+.rcard_img {
+  
+    background-color: yellow;
+    -ms-transform: rotate(18deg); 
+    transform: rotate(18deg);
+    margin-left: 400PX;
+    margin-top: 100px;
+    border-radius: 30px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+
+.card_p3 {
+    width:480px;
+    background-color: white;
+    height: 250px;
+    float: left;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.card_p3 h1{
+    font-size: 48px;
+    color: black;
+    margin-top: 30px;
+    float: left; 
+    
+    width: 300px;
+    line-height: 50px;
+    padding-right: 20px;
+}
+.p1{ margin-left: 30px;
+    
+}
+.p2{
+    margin-top: 140px;
+    margin-left: 30px;
+}
+
+
+.card_p3_img {
+    margin: 30px;
+    float: left;
+    border-radius: 10px;
+    height:70px;
+    width: 70px;
+}
+
+.button{
+    margin-left: 30px;
+    padding: 5px 0px;
+}
+
+.star{
+    margin-left: 30px;
+    padding: 5px 0px;
+}
+.star .fa-solid{
+    display: inline;
+    color: #F29F05;
+     margin-top: 20px;
+     
+}
+.star .fa-regular{
+    display: inline;
+    color: #F29F05;
+}
+.card_btn {
+    width: 140px;
+    cursor: pointer;
+    height: 30px;
+    background-color: white;
+    color: #F29F05;
+    border: 1px solid #F29F05;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+
+}
+.card_btn:hover {
+    background-color: #F29F05;
+    color: white;
+    transition: 1s;
+}
+
+.inthover2 {
+    width: 95%;
+    height: 220px;
+}
+.card_para1{
+    margin-left: 30px;
+    padding: 5px 0px;
+    color: #636363;
+}
+.card_p3 .a{
+    color: #b4b4b4;
+    font-size: 12px;
+
+}
+
+
+/* Cards */
+.resto_card {
+    width: 26%;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    float: left;
+    height: 700px;
+}
+.resto_card h2 {
+    color: #2f2f2f;
+    margin-top: 40px;
+    font-size: 35px;
+}
+  
+.resto_card h1 {
+    color: #2f2f2f;
+    margin-top: 20px;
+    font-size: 35px;
+    float: left;
+    margin-right: 40px;
+}
+  
+  .show {
+    display: block;
+  }
+  
+  .container6 {
+    overflow: hidden;
+    margin-top: 750px;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 25px 36px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  .btn:hover {
+    border-bottom: 2px solid #F29F05 ;
+  }
+  
+  .btn.active {
+    border-bottom: 2px solid #F29F05 ;
+  }
+  .card_btn2 {
+    width: 100px;
+    cursor: pointer;
+    height: 30px;
+    background-color: white;
+    color: #F29F05;
+    border: 1px solid #F29F05;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.card_btn2:hover {
+    background-color: #F29F05;
+    color: white;
+    transition: 1s;
+}
+.add_btn {
+    width: 40px;
+    height: 40px;
+    border-color: #F29F05;
+    float: left;
+    margin-top: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.add_btn .fa-solid {
+    display: inline;
+    color: #F29F05;
+    background-color: transparent;
+    width: 100%;
+}
+
+.add_basket {
+    margin-top: 30px;
+    width: 90%;
+    height: 60px;
+    background-color: #F29F05;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+.add_basket:hover {
+    border: 2px solid #F29F05;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #F29F05;
+}
+.card_price {
+    font-size: 80px;
+    color: #F29F05;
+}

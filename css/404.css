@@ -1,0 +1,85 @@
+.error_text {
+    margin-left: 400px;
+    width: 500px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: rgb(252, 252, 252);
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    margin-top: 70px;
+    padding-left: 30px;
+}
+/* .error_btn {
+    width: 80px;
+    height: 52px;
+    margin-left: -80px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: #F29F05;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+.error_btn:hover {
+    background-color: white;
+    border: 2px #F29F05;
+} */
+
+.btn_1 {
+    width: 80px;
+    height: 50px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #F29F05;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}
+.btn_1:hover {
+    background-color: #c18be3;
+    color: #F29F05;
+}
+.search.fa-solid {
+    color: white;
+    display: inline;
+    font-size: 20px;
+}
+
+
+.error_img {
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+.error_hero h2 {
+    font-size: 28px;
+    margin-top: 60px;
+    text-align: center;
+}
+.error_hero p {
+    font-size: 20px;
+    margin-top: 26px;
+    text-align: center;
+    color: gray;
+}
+
+.error_btn2 {
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.error_btn2 .fa-solid {
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: 35px;
+    background-color: #F29F05;
+    border-style: none;
+}
+
+/* Footer */

@@ -1,0 +1,141 @@
+.c
+{
+    
+    color: white;
+    display: flex;
+    margin-top:50px;
+    height: 500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width: 100%;
+}
+.footer{
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    position: relative;
+    background: rgb(54, 54, 54);
+    max-width: 100%;
+    
+}
+#i1{
+    height: 40px;
+    width:160px;
+   cursor: pointer;
+   
+   margin-top:-5px;
+   max-width: 100%;
+    
+}
+.e
+{
+    width:33%;
+    max-width: 100%;
+}
+
+#h {
+    margin-left: 200px;
+    max-width: 100%;
+    
+}
+.g
+{
+    padding-left: 40px;
+    width: 33%;
+    margin-left: 100px;
+    max-width: 100%;
+}
+.g h2{
+    font-size: 24px;
+    max-width: 100%;
+}
+.g p{
+    padding: 15px 0px;
+    line-height: 1;
+    color: rgb(199, 199, 199);
+    max-width: 100%;
+}
+.g1{
+    margin-top: 50px;
+    max-width: 100%;
+}
+.loc{
+    line-height: 1.5;
+    max-width: 100%;
+}
+.e ul{
+    margin-top: 50px;
+    max-width: 100%;
+}
+.e ul li{
+    list-style: none;
+    padding: 12px 0px;
+    max-width: 100%;
+}
+.e ul li a{
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    margin-left: 200px;
+    max-width: 100%;
+}
+.e ul li a:hover {
+    color: #ffbd18;
+    max-width: 100%;
+}
+.d{
+    width:400px;
+    max-width: 100%;
+}
+.d h1{
+ font-size: 48px;
+ margin-top: 50px;
+ max-width: 100%;
+} 
+.d p{
+    font-size:16px;
+    color: rgb(199, 199, 199);
+    line-height: 1.5;
+    margin-top:20px;
+    max-width: 100%;
+}
+.cr{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 100%;
+    
+}
+.cr p{
+    color: rgb(199, 199, 199);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.cr p a{
+    cursor: pointer;
+    padding: 20px;
+
+    max-width: 100%;
+}
+.crp{
+    margin-left: 700px;
+    max-width: 100%;
+}
+.e  .fa-solid{
+    display: inline;
+    color: rgb(199, 199, 199);
+    margin-left: 10px;
+    max-width: 100%;
+}
+.g .fa-solid{
+    display: inline;
+    color: rgb(199, 199, 199);
+    margin-right: 10px;
+    max-width: 100%;
+
+}
+span{
+    padding-top: 20px;
+    margin-left: 24px;
+    max-width: 100%;
+}
